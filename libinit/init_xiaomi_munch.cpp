@@ -14,10 +14,10 @@ static const variant_info_t munchin_info = {
     .sku_value = "",
 
     .brand = "POCO",
-    .device = "munchin",
+    .device = "munch",
     .marketname = "POCO F4",
-    .model = "22021211RG",
-    .build_fingerprint = "Mi/aliothin/aliothin:13/TKQ1.220829.002/V14.0.5.0.TKHINXM:user/release-keys",
+    .model = "22021211RI",
+    .build_fingerprint = "POCO/munch_in/munch:12/RKQ1.211001.001/V13.0.5.0.SLMMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -30,7 +30,7 @@ static const variant_info_t munch_global_info = {
     .device = "munch",
     .marketname = "POCO F4",
     .model = "22021211RG",
-    .build_fingerprint = "POCO/alioth_global/alioth:13/TKQ1.220829.002/V14.0.8.0.TKHMIXM:user/release-keys",
+    .build_fingerprint = "POCO/munch_global/munch:12/RKQ1.211001.001/V13.0.5.0.SLMMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -41,9 +41,9 @@ static const variant_info_t munch_info = {
 
     .brand = "Redmi",
     .device = "munch",
-    .marketname = "Redmi K40s",
+    .marketname = "Redmi K40S",
     .model = "22021211RC",
-    .build_fingerprint = "Redmi/alioth/alioth:13/TKQ1.220829.002/V14.0.8.0.TKHCNXM:user/release-keys",
+    .build_fingerprint = "Redmi/munch/munch:12/RKQ1.211001.001/V13.0.5.0.SLMMIXM:user/release-keys",
 
     .nfc = true,
 };
