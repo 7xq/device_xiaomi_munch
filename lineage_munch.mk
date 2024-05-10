@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+# Inherit GMS
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
@@ -22,4 +25,4 @@ PRODUCT_MODEL := POCO F4
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := POCO/alioth_global/alioth:13/TKQ1.220829.002/V14.0.8.0.TKHMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/munch/munch:13/RKQ1.211001.001/V816.0.1.0.ULMMIXM:user/release-keys
